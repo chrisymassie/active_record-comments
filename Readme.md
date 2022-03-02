@@ -40,9 +40,3 @@ result = ActiveRecord::Base.connection.exec_query(sql_query)
 ```
 
 If you're replacing `execute` with `exec_query` to get comments, `exec_query.rows` returns data in the same format as `execute.entries`.
-
-Author
-======
-[Michael Grosser](https://grosser.it)<br/>
-michael@grosser.it<br/>
-License: MIT<br/>
